@@ -15,3 +15,20 @@ Eclair is a revolutionary payment method that lets you only pay for content cons
 
 --- 
 
+## Key Features
+
+- **Algorand Tracked Time**:  
+  As the user watches the streaming content, a notice is sent to the Algorand blockchain reporting how much time they have watched. The near instant block time that Algorand supplies allows for very precise timing information to be tracked for the user. This makes charging the user easy for the service provider, but also allows the user to trust that they are being billed honestly and accurately.
+
+- **Reducing Onboarding Friction**:  
+  Many current free trials require users to submit a credit card number, a turnoff for many individuals afraid of forgetting to cancel. With a pay as you go model, users can relax in the knowledge that there is no recurring payment to cancel.
+
+- **Dyanmic Pricing**:  
+  Service providers can dynamically update the prices for certain shows, allowing for surge charging during high demand times and discounts for when demand is low. 
+
+- **Universal Account**:  
+  End users will no longer need to be concerned with maintaining and keeping track of multiple subscriptions. Instead Eclair allows them to route payments to any streaming service they use solely to their Eclair account.
+
+  
+---
+
