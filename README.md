@@ -1,45 +1,41 @@
-# eclair
+# Eclair: A Pay-as-you-go content consumption payment method powered by Algorand
 
-This starter full stack project has been generated using AlgoKit. See below for default getting started instructions.
+Eclair is a revolutionary payment method that lets you only pay for content consumed - no more waste, just precise, per-second billing. 
 
-## Setup
+---
+## Video Demo
 
-### Initial setup
-1. Clone this repository to your local machine.
-2. Ensure [Docker](https://www.docker.com/) is installed and operational. Then, install `AlgoKit` following this [guide](https://github.com/algorandfoundation/algokit-cli#install).
-3. Run `algokit project bootstrap all` in the project directory. This command sets up your environment by installing necessary dependencies, setting up a Python virtual environment, and preparing your `.env` file.
-4. In the case of a smart contract project, execute `algokit generate env-file -a target_network localnet` from the `eclair-contracts` directory to create a `.env.localnet` file with default configuration for `localnet`.
-5. To build your project, execute `algokit project run build`. This compiles your project and prepares it for running.
-6. For project-specific instructions, refer to the READMEs of the child projects:
-   - Smart Contracts: [eclair-contracts](projects/eclair-contracts/README.md)
-   - Frontend Application: [eclair-frontend](projects/eclair-frontend/README.md)
+## Screenshots
 
-> This project is structured as a monorepo, refer to the [documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/features/project/run.md) to learn more about custom command orchestration via `algokit project run`.
+<img width="1331" height="673" alt="image" src="https://github.com/user-attachments/assets/1d8a7b28-a673-4bf1-8c2e-6c21474e2eaf" />
 
-### Subsequently
+<img width="1068" height="625" alt="image" src="https://github.com/user-attachments/assets/978f1a2a-1ff3-4118-86de-f1b918ac14bb" />
 
-1. If you update to the latest source code and there are new dependencies, you will need to run `algokit project bootstrap all` again.
-2. Follow step 3 above.
+<img width="840" height="274" alt="image" src="https://github.com/user-attachments/assets/2b0f8f99-964d-43ce-b44a-4473890da661" />
 
-## Tools
+--- 
 
-This project makes use of Python and React to build Algorand smart contracts and to provide a base project configuration to develop frontends for your Algorand dApps and interactions with smart contracts. The following tools are in use:
+## Key Features
 
-- Algorand, AlgoKit, and AlgoKit Utils
-- Python dependencies including Poetry, Black, Ruff or Flake8, mypy, pytest, and pip-audit
-- React and related dependencies including AlgoKit Utils, Tailwind CSS, daisyUI, use-wallet, npm, jest, playwright, Prettier, ESLint, and Github Actions workflows for build validation
+- **Algorand Tracked Time**:  
+  As the user watches the streaming content, a notice is sent to the Algorand blockchain reporting how much time they have watched. The near instant block time that Algorand supplies allows for very precise timing information to be tracked for the user. This makes charging the user easy for the service provider, but also allows the user to trust that they are being billed honestly and accurately.
 
-### VS Code
+- **Reducing Onboarding Friction**:  
+  Many current free trials require users to submit a credit card number, a turnoff for many individuals afraid of forgetting to cancel. With a pay as you go model, users can relax in the knowledge that there is no recurring payment to cancel.
 
-It has also been configured to have a productive dev experience out of the box in [VS Code](https://code.visualstudio.com/), see the [backend .vscode](./backend/.vscode) and [frontend .vscode](./frontend/.vscode) folders for more details.
+- **Dyanmic Pricing**:  
+  Service providers can dynamically update the prices for certain shows, allowing for surge charging during high demand times and discounts for when demand is low. 
 
-## Integrating with smart contracts and application clients
+- **Universal Account**:  
+  End users will no longer need to be concerned with maintaining and keeping track of multiple subscriptions. Instead Eclair allows them to route payments to any streaming service they use solely to their Eclair account.
 
-Refer to the [eclair-contracts](projects/eclair-contracts/README.md) folder for overview of working with smart contracts, [projects/eclair-frontend](projects/eclair-frontend/README.md) for overview of the React project and the [projects/eclair-frontend/contracts](projects/eclair-frontend/src/contracts/README.md) folder for README on adding new smart contracts from backend as application clients on your frontend. The templates provided in these folders will help you get started.
-When you compile and generate smart contract artifacts, your frontend component will automatically generate typescript application clients from smart contract artifacts and move them to `frontend/src/contracts` folder, see [`generate:app-clients` in package.json](projects/eclair-frontend/package.json). Afterwards, you are free to import and use them in your frontend application.
+  
+---
 
-The frontend starter also provides an example of interactions with your HelloEclairClient in [`AppCalls.tsx`](projects/eclair-frontend/src/components/AppCalls.tsx) component by default.
+## Canva Slides
 
-## Next Steps
+https://www.canva.com/design/DAGyO32eu6c/hcof-2-WQZ2VmwZMXjABMw/edit?utm_content=DAGyO32eu6c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-You can take this project and customize it to build your own decentralized applications on Algorand. Make sure to understand how to use AlgoKit and how to write smart contracts for Algorand before you start.
+---
+
+## Technical Details
