@@ -32,3 +32,10 @@ Eclair is a revolutionary payment method that lets you only pay for content cons
   
 ---
 
+## Canva Slides
+
+https://www.canva.com/design/DAGyO32eu6c/hcof-2-WQZ2VmwZMXjABMw/edit?utm_content=DAGyO32eu6c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+---
+
+## Technical Details
