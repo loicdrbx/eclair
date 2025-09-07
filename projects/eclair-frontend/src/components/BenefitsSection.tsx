@@ -118,7 +118,7 @@ const BenefitsSection = () => {
         <div className="text-center mb-12">
           <h3 className="text-3xl font-bold mb-4">Technical Innovation</h3>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Built on cutting-edge payment infrastructure for seamless, secure, and scalable micro-transactions.
+            Built on cutting-edge Algorand blockchain infrastructure for seamless, secure, and scalable micro-transactions.
           </p>
         </div>
 

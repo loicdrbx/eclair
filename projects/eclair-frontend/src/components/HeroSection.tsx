@@ -20,8 +20,8 @@ const HeroSection = () => {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            The revolutionary payment method that lets you pay only for what you consume. 
-            No more subscriptions, no more waste—just precise, per-second billing.
+            The revolutionary payment method that lets you pay only for what you consume.
+            Can't commit to a subscription, no problem! Use precise, per-second billing.
           </p>
         </div>
 

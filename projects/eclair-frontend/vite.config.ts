@@ -9,9 +9,10 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    allowedHosts: true
   },
   plugins: [
-    react(), 
+    react(),
     mode === "development" && componentTagger(),
     nodePolyfills({
       globals: {
